@@ -1,37 +1,47 @@
 .imgcontainer {
-    display: flex;
+  flex-direction: row;
+  position: relative;
     height: 500px;
     width: 900px;
     margin: auto;
+    overflow: hidden;
 }
 
 .img {
     background-color: blue;
-    width: 1200px;
+    height: 500px;
+    width: 900px;
 }
 .pic1{
+  display: block;
   background-image: url("picture/1.png");
   background-size: cover;
 }
 .pic2{
+  display: block;
   background-image: url("picture/2.png");
   background-size: cover;
 }
 .pic3{
+  display: block;
   background-image: url("picture/3.png");
   background-size: cover;
 }
 
-.buttoncontainer {
-    display: flex;
-    flex-direction: row;
+#buttoncontainer {
+    display: block;
+    position: absolute;
+    flex-direction: column;
     align-content: center;
     background-color: yellow;
+    top: 50%;
+    left: 97%;
+    transform: translateY(-50%);
 }
 
 .btn {
-    width: 10px;
-    height: 10px;
+    width: 17px;
+    height: 17px;
     border: solid 1px black;
     border-radius: 50%;
 }
