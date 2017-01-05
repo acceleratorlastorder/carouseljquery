@@ -1,29 +1,30 @@
 .imgcontainer {
-  flex-direction: row;
   position: relative;
-    height: 500px;
-    width: 900px;
-    margin: auto;
+    height: 450px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     overflow: hidden;
 }
 
 .img {
+  position: absolute;
     background-color: blue;
-    height: 500px;
-    width: 900px;
+    height: 450px;
+    width: 800px;
 }
 .pic1{
-  display: block;
+  left: 0%;
   background-image: url("picture/1.png");
   background-size: cover;
 }
 .pic2{
-  display: block;
+left: 100%;
   background-image: url("picture/2.png");
   background-size: cover;
 }
 .pic3{
-  display: block;
+left: 200%;
   background-image: url("picture/3.png");
   background-size: cover;
 }
